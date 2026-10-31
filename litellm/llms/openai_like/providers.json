@@ -302,5 +302,14 @@
       "preserve_cache_control": true
     },
     "supported_endpoints": ["/v1/chat/completions"]
+  },
+  "fronset": {
+    "base_url": "https://api.fronset.ai/v1",
+    "api_key_env": "FRONSET_API_KEY",
+    "api_base_env": "FRONSET_API_BASE",
+    "provider_info": {
+      "supports_function_calling": false
+    },
+    "supported_endpoints": ["/v1/chat/completions"]
   }
 }

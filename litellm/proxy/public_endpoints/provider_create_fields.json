@@ -1702,6 +1702,34 @@
     "default_model_placeholder": "gpt-3.5-turbo"
   },
   {
+    "provider": "FRONSET",
+    "provider_display_name": "Fronset",
+    "litellm_provider": "fronset",
+    "credential_fields": [
+      {
+        "key": "api_base",
+        "label": "API Base",
+        "placeholder": "https://api.fronset.ai/v1",
+        "tooltip": null,
+        "required": false,
+        "field_type": "text",
+        "options": null,
+        "default_value": null
+      },
+      {
+        "key": "api_key",
+        "label": "API Key",
+        "placeholder": "llmb_i_...",
+        "tooltip": "An inference-scope key (llmb_i_). Management keys (llmb_m_) are refused on this endpoint",
+        "required": true,
+        "field_type": "password",
+        "options": null,
+        "default_value": null
+      }
+    ],
+    "default_model_placeholder": "fronset/structured-content-summarization"
+  },
+  {
     "provider": "GALADRIEL",
     "provider_display_name": "Galadriel",
     "litellm_provider": "galadriel",
